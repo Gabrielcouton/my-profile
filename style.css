@@ -1,6 +1,6 @@
-/* Style de base */
+
 body {
-    background-color: #fffde7; /* Jaune pâle pour l'arrière-plan */
+    background-color: #fffde7; 
     color: #333;
     font-family: 'Segoe UI', sans-serif;
     font-size: 16px;
@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
 }
 
-/* Conteneur principal */
+
 .container {
     width: 90%;
     max-width: 700px;
@@ -29,9 +29,9 @@ body {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Titre et sous-titres */
+
 h1, h2 {
-    color: #ff9800; /* Orange vif pour les titres */
+    color: #ff9800; 
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -47,7 +47,7 @@ h2 {
     margin-top: 20px;
 }
 
-/* Cartes */
+
 .card-white {
     background-color: #ffffff;
     padding: 25px;
@@ -58,15 +58,15 @@ h2 {
 }
 
 .card-white:hover {
-    background-color: #fff3e0; /* Jaune pâle au survol */
+    background-color: #fff3e0; 
     transform: translateY(-5px);
 }
 
-/* Image de profil */
+
 .img-circle {
     border-radius: 50%;
     margin-bottom: 15px;
-    border: 3px solid #ffa726; /* Bordure orange vif */
+    border: 3px solid #ffa726; 
     transition: transform 0.3s ease;
 }
 
@@ -74,15 +74,15 @@ h2 {
     transform: scale(1.1);
 }
 
-/* Liens et icônes */
+
 a {
     text-decoration: none;
-    color: #ff9800; /* Orange pour les liens */
+    color: #ff9800; 
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #e65100; /* Orange foncé au survol */
+    color: #e65100; 
 }
 
 .list-inline {
@@ -104,7 +104,7 @@ a:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* Liste des intérêts */
+
 .text-left {
     list-style-type: none;
     padding-left: 0;
@@ -115,7 +115,7 @@ a:hover {
     font-size: 16px;
 }
 
-/* Media Queries */
+
 @media (max-width: 760px) {
     .container {
         width: 100%;
